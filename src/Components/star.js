@@ -4,11 +4,11 @@ import useWebAnimations from "@wellyshen/use-web-animations";
 
 function Star() {
 
-    const {ref, animate, getAnimation} = useWebAnimations();
-
-    let onEarth = true;
+    const {ref, animate } = useWebAnimations();
+    
     useEffect(() => {
-        document.addEventListener('click' ,() => {
+        let onEarth = true;
+        document.addEventListener('click', () => {
             if(onEarth){
             animate({
               keyframes: [
@@ -40,7 +40,6 @@ function Star() {
       }}
       ref={ref}
       >
-
       </div>
     </>
   )

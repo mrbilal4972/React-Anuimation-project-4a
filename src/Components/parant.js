@@ -1,6 +1,5 @@
 import React from "react";
 import Sky from './sky'
-import useWebAnimations from "@wellyshen/use-web-animations";
 import Spaceship from './spaceship';
 import Grass from './grass'
 import Star from './star'
