@@ -14,6 +14,7 @@ function Moon() {
         top: '50px',
         right: '50px'
         }}
+        alt={'moon'}
       ></img>
     </div>
   )

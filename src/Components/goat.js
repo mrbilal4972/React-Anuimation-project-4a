@@ -45,7 +45,7 @@ function Goat() {
             animation.updatePlaybackRate(animation.playbackRate * 1.5);
 
         })
-    }, [animate])
+    }, [getAnimation])
 
   return (
     <div>
